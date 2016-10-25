@@ -1,5 +1,5 @@
-<div id="home">
-  <div id="carousel-example-generic" class="carousel slider1 slide" data-ride="carousel">
+<div id="portfolio">
+  <div id="carousel-example-generic" class="carousel slider2 slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -10,10 +10,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img class="img-responsive" src="/img/car1.jpg">
+        <img src="img/car3-small.jpg">
       </div>
       <div class="item">
-        <img class="img-responsive" src="/img/car2.jpg">
+        <img src="img/car1.jpg">
+      </div>
+      <div class="item">
+        <img src="img/car2.jpg">
       </div>
     </div>
 

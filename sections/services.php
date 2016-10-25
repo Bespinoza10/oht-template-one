@@ -7,7 +7,7 @@
   </div>
 
   <div class="col-sm-4 col-md-4">
-    <img class="img-responsive" src="/img/coming-soon-img.jpg">
+    <img class="img-responsive" src="img/coming-soon-img.jpg">
     <h3 class="text-center">
       Bacon Ipsum
     </h3>
@@ -20,7 +20,7 @@
   </div>
 
   <div class="col-sm-4 col-md-4">
-    <img class="img-responsive" src="/img/coming-soon-img.jpg">
+    <img class="img-responsive" src="img/coming-soon-img.jpg">
     <h3 class="text-center">
       Bacon Ipsum
     </h3>
@@ -33,7 +33,7 @@
   </div>
 
   <div class="col-sm-4 col-md-4">
-    <img class="img-responsive" src="/img/coming-soon-img.jpg">
+    <img class="img-responsive" src="img/coming-soon-img.jpg">
     <h3 class="text-center">
       Bacon Ipsum
     </h3>

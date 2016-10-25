@@ -13,19 +13,18 @@
 
   </head>
   <body>
+    <?php
 
-    <div w3-include-html="sections/nav.html"></div>
-    <div w3-include-html="sections/slider1.html"></div>
-    <div w3-include-html="sections/about.html"></div>
-    <div w3-include-html="sections/services.html"></div>
-    <div w3-include-html="sections/slider2.html"></div>
-    <div w3-include-html="sections/contact.html"></div>
-    <div w3-include-html="sections/footer.html"></div>
+      include 'sections/nav.php';
+      include 'sections/slider1.php';
+      include 'sections/about.php';
+      include 'sections/services.php';
+      include 'sections/slider2.php';
+      include 'sections/contact.php';
+      include 'sections/footer.php';
 
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
-    <script>
-      w3IncludeHTML();
-    </script>
+    ?>
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
     <script src="js/app.js"></script>
