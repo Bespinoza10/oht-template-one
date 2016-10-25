@@ -143,4 +143,47 @@ nav.navbar {
         -webkit-transition: all 0.4s;
         transition: all 0.4s; }
 
+.modal-content {
+  border: none;
+  border-radius: 0px; }
+
+.modal input, .modal textarea {
+  box-shadow: none;
+  background: none;
+  border-radius: 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #000;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
+  .modal input:focus, .modal textarea:focus {
+    box-shadow: none;
+    border-bottom-color: #DEAF4D;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+
+.modal .btn-login {
+  margin-top: 20px;
+  border-radius: 0px;
+  background: none;
+  border: 2px solid #222222;
+  padding: 1% 3%;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s; }
+  .modal .btn-login:hover {
+    letter-spacing: 3px;
+    border-color: #DEAF4D;
+    color: #222222;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+
 /*# sourceMappingURL=brandon.css.map */

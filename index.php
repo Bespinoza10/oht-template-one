@@ -13,6 +13,10 @@
 
   </head>
   <body>
+
+    <!-- ****DUSTIN****
+     Modals are put in their individual file. If there are any issues on calling the
+     modals later in development then place all modals here in index.php-->
     <?php
 
       include 'sections/nav.php';
@@ -23,7 +27,13 @@
       include 'sections/contact.php';
       include 'sections/footer.php';
 
+
+      include 'sections/login-modal.php';
+
     ?>
+
+
+
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
