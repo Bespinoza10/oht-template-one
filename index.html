@@ -9,12 +9,16 @@
     <title>AquiEstoy.MX</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/brandon.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 
   </head>
   <body>
 
-    <div w3-include-html="partials/nav.html"></div>
-    <div w3-include-html="partials/slider1.html"></div>
+    <div w3-include-html="sections/nav.html"></div>
+    <div w3-include-html="sections/slider1.html"></div>
+    <div w3-include-html="sections/about.html"></div>
+    <div w3-include-html="sections/services.html"></div>
+    <div w3-include-html="sections/slider2.html"></div>
 
     <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <script>
@@ -24,7 +28,7 @@
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-     $('.slider1').carousel({
+     $('.slider1', '.slider2').carousel({
        interval: 2500,
        pause: "null"
      });

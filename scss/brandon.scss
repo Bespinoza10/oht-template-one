@@ -1,15 +1,115 @@
+@import "modules/all";
 
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  font-size: 40px;
+}
+
+p{
+  font-size: 18px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.center{
+  margin: 0 auto;
+  float: none;
+}
+
+.padding-section{
+  padding: 6% 0;
+}
+
+.padding-section-elements-top{
+  padding-top: 3%;
+}
+
+.padding-section-elements-bottom{
+  padding-bottom: 3%;
+}
+//nav
+
+nav.navbar{
+  border-top: none;
+  border-radius: 0px;
+  background-color: $white;
+  min-height: 80px;
+  margin-bottom: 0px;
+  .navbar-header,.navbar-nav{
+    margin-top: 2vh;
+  }
+  .navbar-nav{
+    li a{
+      font-family: 'Lato', sans-serif;
+      font-size: 13px;
+      letter-spacing: 1px;
+      font-weight: 100;
+      color: $orange;
+      @include transition(all .3s);
+      &:hover{
+        color: $purple;
+        @include transition(all .3s);
+      }
+    }
+  }
+}
+
+
+//slider1
 .carousel-control.left, .carousel-control.right{
   display: none;
 }
 
 .slider1 .item{
-    height: 550px;
-}
-
-.item img {
+  height: 550px;
+  img {
     position: absolute;
     top: 0;
     left: 0;
     min-height: 550px;
+  }
+}
+
+
+//About
+
+#about, #sobre-nosotros{
+  background-color: $purple;
+  color: $white;
+  p{
+    font-weight: 100;
+  }
+}
+
+//services
+#services{
+  p{
+    font-weight: 100;
+  }
+}
+
+
+//slider2 - portfolio
+
+.slider2 .item{
+  height: 300px;
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+  }
 }
