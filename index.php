@@ -27,8 +27,8 @@
       include 'sections/contact.php';
       include 'sections/footer.php';
 
+      include 'sections/modals.php';
 
-      include 'sections/login-modal.php';
 
     ?>
 

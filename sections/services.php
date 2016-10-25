@@ -12,11 +12,13 @@
       Bacon Ipsum
     </h3>
     <p class="text-center">
-      Bacon biltong sirloin ball tip short loin tenderloin. Beef tri-tip shankle sirloin,
+      Bacon biltong sirloservices-modalin ball tip short loin tenderloin. Beef tri-tip shankle sirloin,
       pork chop prosciutto corned beef rump jowl. Ground round meatloaf kevin turducken chuck.
       Porchetta ham hock pork loin salami, prosciutto beef ribeye pastrami meatloaf venison tongue
       ball tip.
     </p>
+
+    <a class="btn btn-warning" data-toggle="modal" href="#services-modal">Editar Servicio</a>
   </div>
 
   <div class="col-sm-4 col-md-4">
@@ -30,6 +32,7 @@
       Porchetta ham hock pork loin salami, prosciutto beef ribeye pastrami meatloaf venison tongue
       ball tip.
     </p>
+    <a class="btn btn-warning" data-toggle="modal" href="#services-modal">Editar Servicio</a>
   </div>
 
   <div class="col-sm-4 col-md-4">
@@ -43,5 +46,6 @@
       Porchetta ham hock pork loin salami, prosciutto beef ribeye pastrami meatloaf venison tongue
       ball tip.
     </p>
+    <a class="btn btn-warning" data-toggle="modal" href="#services-modal">Editar Servicio</a>
   </div>
 </div>

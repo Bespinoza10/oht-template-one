@@ -6,6 +6,11 @@
       <li class="active" data-slide-to="0" data-target="#carousel-example-generic"></li>
       <li data-slide-to="1" data-target="#carousel-example-generic"></li>
       <li data-slide-to="2" data-target="#carousel-example-generic"></li>
+
+
+      <br>
+      <br>
+      <a class="btn btn-warning" data-toggle="modal" href="#slider-one">Editar Slider</a>
     </ol>
     <!-- Wrapper for slides
     -->
