@@ -70,14 +70,6 @@ nav.navbar {
 .carousel-control.left, .carousel-control.right {
   display: none; }
 
-.slider1 .item {
-  height: 550px; }
-  .slider1 .item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 550px; }
-
 #about, #sobre-nosotros {
   background-color: #8224E3;
   color: #fefefe; }
@@ -86,14 +78,6 @@ nav.navbar {
 
 #services p {
   font-weight: 100; }
-
-.slider2 .item {
-  height: 300px; }
-  .slider2 .item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 400px; }
 
 #contact {
   background-color: #333;

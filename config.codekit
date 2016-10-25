@@ -2716,6 +2716,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/car1-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/car1-small.jpg",
+		"outputAbbreviatedPath": "\/img\/car1-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/car1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2727,11 +2738,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/car2-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/car2-small.jpg",
+		"outputAbbreviatedPath": "\/img\/car2-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/car2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 142724,
+		"initialSize": 494405,
 		"inputAbbreviatedPath": "\/img\/car2.jpg",
 		"outputAbbreviatedPath": "\/img\/car2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2742,7 +2764,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 182327,
+		"initialSize": 286420,
 		"inputAbbreviatedPath": "\/img\/car3-small.jpg",
 		"outputAbbreviatedPath": "\/img\/car3-small.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2753,7 +2775,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 227805,
+		"initialSize": 704883,
 		"inputAbbreviatedPath": "\/img\/car3.jpg",
 		"outputAbbreviatedPath": "\/img\/car3.jpg",
 		"outputPathIsOutsideProject": 0,

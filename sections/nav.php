@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">AquiEstoy.MX</a>
+      <a class="navbar-brand" href="#home">AquiEstoy.MX</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

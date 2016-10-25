@@ -31,7 +31,8 @@
     <script type="text/javascript">
     $(document).ready(function(){
      $('.slider1', '.slider2').carousel({
-       interval: 2500,
+       interval: 100,
+       cycle: true,
        pause: "null"
      });
     });
