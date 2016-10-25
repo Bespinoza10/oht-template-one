@@ -7,6 +7,15 @@ h1 {
 p {
   font-size: 18px; }
 
+input.form-control, .form-control[readonly] {
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #d1d1d1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none; }
+
 .text-center {
   text-align: center; }
 
@@ -17,6 +26,9 @@ p {
 .padding-section {
   padding-top: 6%;
   padding-bottom: 6%; }
+
+.padding-top-little {
+  padding-top: 15px; }
 
 .padding-section-elements-top {
   padding-top: 3%; }
@@ -75,6 +87,11 @@ nav.navbar {
       -webkit-transition: all 0.8s;
       transition: all 0.8s; }
 
+.well {
+  border-radius: 0px;
+  border: none;
+  box-shadow: none; }
+
 .carousel-control.left, .carousel-control.right {
   display: none; }
 
@@ -132,7 +149,7 @@ nav.navbar {
 
 .footer {
   background: #222222;
-  height: 80px; }
+  height: 100px; }
   .footer .footer-links {
     color: #fefefe;
     padding-top: 5%; }

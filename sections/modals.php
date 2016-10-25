@@ -1,49 +1,4 @@
 <!-- All MODALS have to be in order. If Nav Modal goes first then slider1 then about-modal..etc -->
-
-<!-- nav | footer MODAL -->
-
-
-
-<!-- <div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h1 class="modal-title" id="myModalLabel"> Editar Navegation y Pie de Pagina</h1>
-      </div>
-      <div class="modal-body padding-section">
-       <div class="row">
-        <div class="col-lg-12">
-          <form id="linksForm" novalidate>
-            <div class="row">
-              <h3>Edite Links de Nav</h3>
-              <div class="col-md-6">
-
-                  <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Nombre del Link *">
-                      <p class="help-block text-danger"></p>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Su Email *" >
-                    <p class="help-block text-danger"></p>
-                </div>
-              </div>
-
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center padding-section-elements-bottom">
-              <div id="success"></div>
-              <button type="submit" class="btn btn-login">Login</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
 <!-- SLIDER1 EDIT MODAL -->
 <div class="modal fade" id="slider-one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">

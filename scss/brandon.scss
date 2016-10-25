@@ -20,6 +20,16 @@ p{
   font-size: 18px;
 }
 
+input.form-control, .form-control[readonly]{
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #d1d1d1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+}
+
 .text-center{
   text-align: center;
 }
@@ -32,6 +42,9 @@ p{
 .padding-section{
   padding-top: 6%;
   padding-bottom:6%;
+}
+.padding-top-little{
+  padding-top: 15px;
 }
 
 .padding-section-elements-top{
@@ -53,6 +66,8 @@ p{
   letter-spacing: 2px;
 }
 //nav
+
+
 
 .navbar-default .navbar-toggle{
   border-radius: 0px;
@@ -99,6 +114,14 @@ nav.navbar{
     }
   }
 }
+  //Edit Mode
+  .well{
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+  }
+
+
 
 
 //slider1
@@ -173,7 +196,7 @@ nav.navbar{
 //footer
 .footer{
   background: $footer-black;
-  height: 80px;
+  height: 100px;
   .footer-links{
     color:$white;
     padding-top:5%;
