@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/_bootstrap.css">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>AquiEstoy.MX</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/brandon.css">
-    <link rel="stylesheet" href="css/nico.css">
+
   </head>
   <body>
 
-    <div class="container">
-      <div class="col-md-6">
-        <h1 class="hello">Hello World</h1>
-      </div>
-    </div>
+    <div w3-include-html="partials/nav.html"></div>
+    <div w3-include-html="partials/slider1.html"></div>
 
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/bootstrap-sass/javascripts/bootstrap.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script>
+      w3IncludeHTML();
+    </script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+     $('.slider1').carousel({
+       interval: 2500,
+       pause: "null"
+     });
+    });
+
+    </script>
   </body>
 </html>
