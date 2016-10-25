@@ -1,2 +1,1 @@
-$(document).foundation();
-//# sourceMappingURL=./app-min.js.map
+$(document).ready(function(){$(".nav li a").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var a=$(this.hash);if(a=a.length&&a||$("[name="+this.hash.slice(1)+"]"),a.length){var t=a.offset().top;return $("html,body").animate({scrollTop:t},1e3),!1}}})});
