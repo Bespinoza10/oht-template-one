@@ -92,6 +92,12 @@ nav.navbar {
   border: none;
   box-shadow: none; }
 
+@media (max-width: 992px) {
+  .well {
+    height: 60vh;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important; } }
+
 .carousel-control.left, .carousel-control.right {
   display: none; }
 
@@ -149,10 +155,12 @@ nav.navbar {
 
 .footer {
   background: #222222;
-  height: 100px; }
+  height: 150px; }
   .footer .footer-links {
     color: #fefefe;
     padding-top: 5%; }
+    .footer .footer-links .fa {
+      font-size: 30px; }
     .footer .footer-links li {
       display: inline-block;
       padding-right: 30px; }

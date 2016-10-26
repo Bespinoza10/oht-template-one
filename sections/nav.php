@@ -71,14 +71,32 @@
                   <input type="text" class="form-control" id="exampleInputEmail3" placeholder="link 6">
                 </div>
               </div>
-              <div class="col-lg-12 padding-section-elements-top">
+
+              <div class="col-md-10 padding-section-elements-bottom" style="border-bottom: 1px solid #656565;">
+                <div class="row">
                   <div id="success"></div>
                   <button type="submit" class="btn btn-success btn-big">Actualizar</button>
+                </div>
               </div>
+              <form>
+                <div class="col-md-12">
+                  <h1>Crea un Link</h1>
+                  <div class="col-md-2 padding-top-little">
+                    <label>Nombre del Link</label>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="link 6">
+
+                  </div>
+                  <div class="col-lg-12 padding-section-elements-top">
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-success btn-big">Agregar</button>
+                  </div>
+                </div>
+              </form>
+
+
 
             </div>
           </form>
-
         </div>
       </div>
     </div>

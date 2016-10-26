@@ -9,6 +9,7 @@
     <title>AquiEstoy.MX</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/brandon.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 
   </head>
