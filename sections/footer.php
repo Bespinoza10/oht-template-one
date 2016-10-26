@@ -1,12 +1,12 @@
 <div class="container-fluid footer">
   <div class="container">
     <div class="col-md-12">
-
+      <!-- FOOTER EDIT DROPDOWN -->
       <div class="collapse" id="footer-edit">
         <div class="well">
 
           <form>
-            <div class="container">
+            <div class="row">
               <div class="col-md-12">
                 <h3>Edite Links</h3>
                 <div class="col-md-2 padding-top-little">
@@ -52,14 +52,52 @@
 
             </div>
           </form>
+        </div>
+      </div>
 
+      <!-- LOGIN DROP DOWN -->
+      <div class="collapse" id="loginDrop">
+        <div class="well">
+
+          <form>
+            <div class="row">
+              <div class="col-md-12">
+
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Su Nombre *" id="name" required data-validation-required-message="Please enter your name." required="true">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                          <input type="email" class="form-control" placeholder="Su Email *" id="email" required data-validation-required-message="Please enter your email address." required="true">
+                          <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12 text-center padding-section-elements-bottom">
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-login">Login</button>
+                    </div>
+                  </div>
+                </form>
+                <a class="btn btn-warning" role="button" data-toggle="collapse" href="#loginDrop" aria-expanded="false"    aria-controls="collapseExample">
+                  Cancel
+                </a>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
 
 
-    <a class="btn btn-warning" role="button" data-toggle="collapse" href="#footer-edit" aria-expanded="false" aria-controls="collapseExample">
-      Editar Navegacion
+    <a class="btn btn-warning" role="button" data-toggle="collapse" href="#footer-edit" aria-expanded="false"    aria-controls="collapseExample">
+      Editar Footer
     </a>
     <div class="col-md-7 center">
         <ul class=" footer-links">
@@ -69,11 +107,11 @@
           <li><a href="#">Services</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a data-toggle="modal" href="#loginModal">Login</a></li>
+          <li><a role="button" data-toggle="collapse" href="#loginDrop" aria-expanded="false"    aria-controls="collapseExample">
+            Login
+          </a></li>
 
         </ul>
-
-
     </div>
   </div>
 </div>
