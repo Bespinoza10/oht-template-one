@@ -181,12 +181,14 @@ nav.navbar {
 
 @media (max-width: 992px) {
   .footer {
-    height: 200px; }
+    height: 230px; }
     .footer .footer-links {
       color: #fefefe;
       padding-top: 5%; }
+      .footer .footer-links li {
+        padding-right: 20px; }
       .footer .footer-links .fa {
-        font-size: 25px; } }
+        font-size: 20px; } }
 
 .modal-content {
   border: none;
