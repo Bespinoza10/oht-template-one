@@ -1,6 +1,7 @@
 <div class="container-fluid footer">
   <div class="container">
     <div class="col-md-12">
+
       <div class="collapse" id="footer-edit">
         <div class="well">
 
@@ -68,7 +69,7 @@
           <li><a href="#">Services</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a data-toggle="modal" href="#login">Login</a></li>
+          <li><a data-toggle="modal" href="#loginModal">Login</a></li>
 
         </ul>
 

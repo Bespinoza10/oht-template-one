@@ -125,16 +125,35 @@
                 <label>Detalles</label>
                 <textarea class="form-control" placeholder="Example Text" required></textarea>
               </p>
-
+              <div class="col-lg-12 text-right padding-section-elements-top">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-success btn-big">Actualizar</button>
+              </div>
             </div>
 
+            <!-- NEW SERVICE -->
+            <div class="col-sm-12 col-md-12 padding-section-elements-top">
+              <h1 class="text-left">Agrega Nuevo Servicio</h1>
+              <div class="col-md-4">
+                <img class="img-responsive" src="img/coming-soon-img.jpg">
+              </div>
 
-            <div class="col-lg-12 text-center padding-section-elements-bottom">
+              <div class="col-md-8">
+                <h3 class="text-center">
+                  <label>Titulo</label>
+                  <input type="text" class="form-control" placeholder="Bacon Ipsum"required>
+                </h3>
+                <p class="text-center">
+                  <label>Detalles</label>
+                  <textarea class="form-control" placeholder="Example Text" required></textarea>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-12 text-right padding-section-elements-top">
                 <div id="success"></div>
-                <button type="submit" class="btn btn-success btn-big">Actualizar</button>
+                <button type="submit" class="btn btn-success btn-big">Agregar</button>
             </div>
-
-
 
           </div>
         </div>
@@ -319,13 +338,10 @@
   </div>
 </div>
 
+<!--LOGIN MODAL -->
 
 
-<!-- LOGIN MODAL -->
-
-
-
-<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -335,7 +351,7 @@
       <div class="modal-body padding-section">
         <div class="row">
           <div class="col-lg-12">
-            <form name="sentMessage" id="loginForm" novalidate>
+            <form>
               <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">

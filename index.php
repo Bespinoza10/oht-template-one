@@ -23,6 +23,7 @@
       include 'sections/slider1.php';
       include 'sections/about.php';
       include 'sections/services.php';
+      include 'sections/slogan.php';
       include 'sections/slider2.php';
       include 'sections/contact.php';
       include 'sections/footer.php';

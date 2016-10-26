@@ -40,8 +40,8 @@ input.form-control, .form-control[readonly]{
 }
 
 .padding-section{
-  padding-top: 6%;
-  padding-bottom:6%;
+  padding-top: 10%;
+  padding-bottom:10%;
 }
 .padding-top-little{
   padding-top: 15px;
@@ -131,7 +131,7 @@ nav.navbar{
 
 //About
 
-#about, #sobre-nosotros{
+#about, #slogan{
   background-color: $purple;
   color: $white;
   p{

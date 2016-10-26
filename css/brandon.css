@@ -24,8 +24,8 @@ input.form-control, .form-control[readonly] {
   float: none; }
 
 .padding-section {
-  padding-top: 6%;
-  padding-bottom: 6%; }
+  padding-top: 10%;
+  padding-bottom: 10%; }
 
 .padding-top-little {
   padding-top: 15px; }
@@ -95,10 +95,10 @@ nav.navbar {
 .carousel-control.left, .carousel-control.right {
   display: none; }
 
-#about, #sobre-nosotros {
+#about, #slogan {
   background-color: #8224E3;
   color: #fefefe; }
-  #about p, #sobre-nosotros p {
+  #about p, #slogan p {
     font-weight: 100; }
 
 #services p {
