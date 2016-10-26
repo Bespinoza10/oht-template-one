@@ -247,6 +247,19 @@ nav.navbar{
   }
 }
 
+@media #{$medium-and-down}{
+  .footer{
+    height: 200px;
+    .footer-links{
+      color:$white;
+      padding-top:5%;
+      .fa{
+        font-size: 25px;
+      }
+    }
+  }
+}
+
 
 //Modals
 

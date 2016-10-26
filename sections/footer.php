@@ -16,7 +16,7 @@
     </div>
 
     <div class="col-md-12">
-      <div class="col-md-4 center">
+      <div class=" col-xs-12 col-sm-8 col-md-4 center">
         <ul class=" footer-links">
 
           <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

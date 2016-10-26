@@ -179,6 +179,15 @@ nav.navbar {
         -webkit-transition: all 0.4s;
         transition: all 0.4s; }
 
+@media (max-width: 992px) {
+  .footer {
+    height: 200px; }
+    .footer .footer-links {
+      color: #fefefe;
+      padding-top: 5%; }
+      .footer .footer-links .fa {
+        font-size: 25px; } }
+
 .modal-content {
   border: none;
   border-radius: 0px; }
